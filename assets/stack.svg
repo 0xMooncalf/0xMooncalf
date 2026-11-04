@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="64" viewBox="0 0 800 64" role="img" aria-label="Go, TypeScript, JavaScript, Node.js">
+  <style>
+    .pill { fill: #3A6AD4; stroke: #5B8DEF; stroke-width: 1.5; }
+    .name { fill: #FFF8E7; font: 600 20px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; }
+    .tag  { font: 800 15px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; text-anchor: middle; }
+  </style>
+
+  <!-- Go -->
+  <g transform="translate(0,4)">
+    <rect class="pill" x="1" y="1" width="186" height="54" rx="14"/>
+    <rect x="16" y="12" width="32" height="32" rx="8" fill="#00ADD8"/>
+    <text class="tag" x="32" y="33" fill="#FFFFFF">GO</text>
+    <text class="name" x="62" y="35">Go</text>
+  </g>
+
+  <!-- TypeScript -->
+  <g transform="translate(204,4)">
+    <rect class="pill" x="1" y="1" width="186" height="54" rx="14"/>
+    <rect x="16" y="12" width="32" height="32" rx="6" fill="#3178C6" stroke="#FFF8E7" stroke-width="1"/>
+    <text class="tag" x="32" y="33" fill="#FFFFFF">TS</text>
+    <text class="name" x="62" y="35">TypeScript</text>
+  </g>
+
+  <!-- JavaScript -->
+  <g transform="translate(408,4)">
+    <rect class="pill" x="1" y="1" width="186" height="54" rx="14"/>
+    <rect x="16" y="12" width="32" height="32" rx="6" fill="#F7DF1E"/>
+    <text class="tag" x="32" y="33" fill="#1E1E1E">JS</text>
+    <text class="name" x="62" y="35">JavaScript</text>
+  </g>
+
+  <!-- Node.js -->
+  <g transform="translate(612,4)">
+    <rect class="pill" x="1" y="1" width="186" height="54" rx="14"/>
+    <polygon points="32,10 47,19 47,37 32,46 17,37 17,19" fill="#5FA04E"/>
+    <text class="tag" x="32" y="33" fill="#FFFFFF">N</text>
+    <text class="name" x="62" y="35">Node.js</text>
+  </g>
+</svg>
